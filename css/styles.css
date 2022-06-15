@@ -9,8 +9,6 @@
 .list {
   list-style: none;
 }
-.page-header {
-}
 
 .text-logo {
   color: #000000;
@@ -44,7 +42,7 @@ span,
 }
 .site-cont a {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -58,7 +56,7 @@ span,
 }
 .hero-title {
   color: var(--primary-bg-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -71,7 +69,7 @@ span,
 .btn {
   color: var(--primary-bg-color);
   background-color: var(--accent-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -87,7 +85,7 @@ span,
 
 .section-title {
   color: var(--title-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -97,8 +95,8 @@ span,
 }
 
 .title-item {
-  color: var(--title-text-color: #212121);
-  font-family: 'Roboto';
+  color: var(--title-text-color);
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -108,7 +106,7 @@ span,
 }
 .text {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -118,7 +116,7 @@ span,
 
 .title-team {
   color: var(--title-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -130,7 +128,7 @@ span,
 
 .text-team {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

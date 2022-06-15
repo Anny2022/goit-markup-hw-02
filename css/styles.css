@@ -1,10 +1,11 @@
 :root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --hero-bg-color: #2f303a;
 }
-body {
-  font-family: ;
-  /* background-color: #e5e5e5; */
-  background-color: #ffffff;
-}
+
 .list {
   list-style: none;
 }
@@ -23,7 +24,7 @@ body {
 }
 /* Site nav */
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -37,11 +38,12 @@ span,
 .site-nav a:hover,
 .site-nav a:focus,
 .site-cont a:hover,
-.site-cont a:focus {
-  color: #2196f3;
+.site-cont a:focus,
+.current {
+  color: var(--accent-text-color);
 }
 .site-cont a {
-  color: #757575;
+  color: var(--primary-text-color);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -52,10 +54,10 @@ span,
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-bg-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -67,8 +69,8 @@ span,
 }
 
 .btn {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-text-color);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -77,6 +79,64 @@ span,
   letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
+}
+
+.section {
+  background-color: var(--primary-bg-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.title-item {
+  color: var(--title-text-color: #212121);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.title-team {
+  color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.text-team {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* цвет заголовков 212121  */
 /* цвет параграфа 757575 */
@@ -105,4 +165,4 @@ Line height
 16.41px
 Letter
 3% */
-/* Raleway – 700, а для Roboto – 400, 500, 700 і 900. */
+/* Raleway – 700, а для Roboto – 400, 500, 700 і 900. */ ;
